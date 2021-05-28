@@ -15,27 +15,28 @@
         	
         		<header>
  					
- 					<label for="respmenu">	<section tabindex="1" class="hamburgericon" >
+ 			<label for="respmenu">	 <span tabindex="1" class="hamburgericon" >
 
- 					<div class="hamburger"></div>
- 					<div class="hamburger"></div>
- 					<div class="hamburger"></div>
+ 					<sup class="hamburger"></sup>
+ 					<sup class="hamburger"></sup>
+ 					<sup class="hamburger"></sup>
  					
- 					</section> Contact</label></header>
+ 					</span>Contact</label></header>
 
  					<input type="checkbox" id="respmenu">
  				
+ 				
  				 <nav class="menu">
 		
-		<a id="menulist" href="index.html">Home</a>
-		<a id="menulist" href="portfolio.html">Portfolio</a>
-		<a id="menulist" href="contact.html"  class="recent">Contact</a>
-		<a id="menulist" href="cv.html">Curriculum Vitae</a>
-		<a id="menulist" href="sitereport.html">Site Report</a>
+		<a class="menulist" href="index.html">Home</a>
+		<a class="menulist" href="portfolio.html">Portfolio</a>
+		<a class="menulist" href="contact.html"  id="recent">Contact</a>
+		<a class="menulist" href="cv.html">Curriculum Vitae</a>
+		<a class="menulist" href="sitereport.html">Site Report</a>
 				
 				</nav>
 
-				<section class="contlayout">	
+				<div class="contlayout">	
 					<form method="POST" action="mailto:xitizzz.paudel732@gmail.com?subject=Form">
 						<fieldset>
 						<legend class="caption"> Your Information </legend>
@@ -52,12 +53,12 @@
 						<input type="password" placeholder="Enter Your Password" required="required" class="infos">
 						<br>
 						Gender:<br>
-						<input type="radio" name="gender" value="male" required="required">Male
-						<input type="radio" name="gender" value="female">Female
-						<input type="radio" name="gender" value="other">Other
+						<input type="radio" name="gender" value="male" required="required" class="gender">Male
+						<input type="radio" name="gender" value="female" class="gender">Female
+						<input type="radio" name="gender" value="other" class="gender">Other
 						<br>
-						<input type="submit" value="Submit" class="infos">
-						<input type="reset" class="infos">
+						<input type="submit" value="Submit" class="infos" id="submt">
+						<input type="reset" class="infos" id="reset">
 
 						</fieldset>
 
@@ -94,7 +95,7 @@
 							<b> Lalbandi-17, Sarlahi (Nepal) </b>
 
 					 </fieldset>
-					</section>
+					</div>
 					
 
 					
