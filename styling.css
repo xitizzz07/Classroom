@@ -1,0 +1,693 @@
+*{
+	box-sizing:border-box;
+
+}
+
+
+body{
+
+	display:grid;
+	grid-template-columns:180px auto auto;
+	grid-row-gap:20px;
+	grid-column-gap:15px;
+	background-image:url(bodyimg.jpg);
+			/* Image Taken From: [Anon.] [n.d] Solid Backgrounds[online].
+			Available from: https://www.solidbackgrounds.com/blue-stained-glass-free-website-background-image.html
+			[Accessed 21 May 2021] */
+		
+
+}
+
+header{
+
+	text-align:center;
+	font-size:50px;
+	font-weight:bold;
+	font-family:cursive;
+	background:-moz-linear-gradient(to right, #091e20, #d6d6e2, #091e20);
+	background:-webkit-linear-gradient(to right, #091e20, #d6d6e2, #091e20);
+	background:linear-gradient(to right, #091e20, #d6d6e2, #091e20);
+	text-shadow:0 0 5px #f0a53d , 0 0 10px #0c0d0d;
+	border-radius:35px;
+	grid-column:1/4;
+	
+	
+	
+}
+
+/*--------------------------Menu-------------------------------*/
+
+
+
+.menu{
+	display:flex;
+	flex-direction:column;
+	grid-row:2/4;
+	font-size:20px;
+	display:flex;
+	font-family:sans-serif;
+	flex-direction:column;
+	border-right:5px solid #b3a4a4;
+	border-radius:15px;
+	height:386px;
+	
+
+	}
+
+
+#respmenu{
+	display:none;
+}
+
+.menulist{
+
+	text-decoration:none;
+	color:#fffbfb;
+	padding:15% 0;
+	text-align:center;
+	border-bottom:2px solid #dfe7ed;
+	border-radius:30px;
+
+
+}
+
+#recent{
+
+	background-color:#261b28;
+	color:#ecf0f1;
+}
+
+
+.menulist:hover{
+
+	background-color:#261b28;
+	transform:scale(1.1);
+	transition:0.2s;
+	
+
+}
+
+.hamburgericon{
+	display:none;
+}
+
+
+/*------------------------------------------Homepage-----------------------------*/
+
+.myinfo{
+
+	border:2px solid #d5cbe8;
+	border-radius:30px;
+	margin:0;
+	grid-area:2/2/3/4;
+	cursor:default;
+}
+
+
+
+#textcontent{
+	margin-top:5%;
+	font-size:35px;
+	color:#c9ceea;
+	font-family:sans-serif;
+	text-align:center;
+	
+
+
+
+}
+#myname{
+	font-size:40px;
+	font-family:cursive;
+	margin:10px 0;
+	color:#a3c877;
+	text-shadow:none;
+}
+	
+
+#pfline{
+text-decoration:none;
+font-family: cursive;
+font-size:44px;
+color: #2bf3e1;
+
+}
+#pfline:hover{
+	text-decoration: underline;
+	
+}
+
+
+
+
+.myimg{
+	float:right;
+	width:500px;
+	height:auto;
+	
+
+
+}
+
+ /*----------------------Portfolio Page------------------------------*/
+
+ .pfportion{
+ 		display:grid;
+ 		grid-template-columns:500px 500px;
+ 		grid-template-rows:360px 360px;
+		grid-column-gap:30px;
+ 		grid-row-gap:50px;
+ 		cursor: default;
+ 		
+ }
+
+.cont{
+	border:2px solid #7c7cd5;
+	border-radius:20px;
+	text-align:center;
+	font-size:30px;
+	font-family: sans-serif;
+	box-shadow:2px 30px 20px rgba(0,0,0,0.3);
+
+
+
+}
+.cont:hover{
+	transition:0.6s;
+	transform:scale(1.1);
+	background:#0069b4;
+}
+
+
+
+
+.plchldrimg {
+	margin-top:4px;
+	width:300px;
+	border-top-right-radius:20px;
+	border-top-left-radius:20px;
+	height:auto;
+	border-bottom:7px solid #c4d3b2;
+	border-bottom-right-radius:19px;
+	border-bottom-left-radius:19px;
+	}
+
+
+
+ /*-----------------------------Contact Page-----------------------------*/
+
+
+form{
+	font-family:sans-serif;
+	font-size:23px;
+	cursor: default;
+
+
+
+}
+.infos{
+	font-size:17px;
+
+}
+.caption{
+	font-weight:bold;
+	font-size:20px;
+	color:#75e488;
+	cursor: default;
+
+
+}
+
+.findme{
+	text-align:center;
+	color: #eadada;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size:20px;
+	height:330px;
+	margin-top:2%;
+	margin-bottom:2%;
+	cursor: default;
+
+
+
+
+
+
+}
+
+
+.logo{
+
+	height:60px;
+	width:60px;
+	border-radius:50%;
+	margin-left:5%;
+
+	
+	
+}
+
+.logo:hover , #inlogo:hover{
+	width:55px;
+	height:55px;
+	transition:0.2s;
+
+}
+
+#gmaillogo{
+	height:60px;
+	margin-top:3%;
+	
+
+}
+
+#gmaillogo:hover{
+	height:55px;
+	transition:0.2s;
+}
+
+
+
+#inlogo{
+	height:57px;
+	width:60px;
+	border-radius:15%;
+	margin-left:5%;
+
+}
+
+
+
+
+#addrlogo{
+
+	height:60px;
+	width:65px;
+	margin-top:3.5%;
+	border-radius:50%;
+
+
+}
+#addrlogo:hover{
+	height:55px;
+	width:60px;
+	transition:0.2s;
+
+
+}
+
+.contlayout{
+	display:grid;
+	grid-template-columns:525px 525px;
+}
+
+.gender , #submt , #reset{
+	cursor: pointer;
+}
+
+
+/*------------------------------------------CV---------------------------------------*/
+
+.cvportion{
+	display:grid;
+	grid-template-columns:600px 400px;
+	grid-template-rows:200px auto;
+	justify-content:space-between;
+	border:2px solid #d5cbe8;
+	cursor: default;
+
+}
+
+.cvheading{
+	grid-area:1/1/2/3;
+}
+
+#cvhead1{
+	font-size:20px;
+	font-family:sans-serif;
+	color:#fff;
+	margin-left:9%;
+	margin-top:5%;
+
+}
+
+
+#cvmyname{
+	font-size:40px;
+	font-family:sans-serif;
+	margin-top:-5px;
+	margin-left:3%;
+	color:#bbcabb;
+	font-weight:bold;
+	font-size:40px;
+}
+
+
+#imgforcv{
+	width:200px;
+	height:180px;
+	border-radius:50%;
+	float:right;
+	margin-top:-160px;
+	margin-right:9px;
+
+}
+
+
+.cvhead2{
+	font-family:cursive;
+	color:#75e488;
+}
+
+
+
+.lcol{
+	grid-area:2/1/3/2;
+	margin-left:5%;
+	border-right: 2px solid black;
+
+}
+
+.rcol #cvhead2{
+	text-align: left;
+}
+.rcol{
+	grid-area: 2/2/3/3;
+	text-align: center;
+
+
+}
+
+#telephonelogo{
+	height: auto;
+	width: 60px;
+	border-radius: 50%;
+}
+
+#addresslogo{
+	width: 65px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+#cvgmaillogo{
+	height: 60px;
+
+}
+.cvprg1{
+	font-family:sans-serif;
+	color:#eeffee;
+}
+#cvhobbies{
+	list-style: none;
+	font-size: 27px;
+	font-family: sans-serif;
+	color: #eeffee;
+}
+.hobby{
+	margin: 5% 0;
+}
+
+
+/*--------------------------------------Site Report---------------------------*/
+
+.srsec1{
+	grid-area: 2/2/3/4;
+	border: 2px solid #d5cbe8;
+	cursor: default;
+
+
+}
+
+
+.srhead1{
+	font-size: 35px;
+	font-weight: bold;
+	font-family: cursive;
+	color: #75e488;
+	text-align: center;
+
+
+}
+
+.srprg{
+		font-family:sans-serif;
+		color:#eeffee;
+		padding-left: 2%;
+		padding-right: 1%;
+		font-size: 20px;
+}
+
+
+.fwrd{
+	padding-left: 20%;
+}
+
+
+
+.assignimg , .validatedss{
+	width: 900px;
+	height: auto;
+	margin-left: 7%;
+}
+
+.srprg2{
+	font-size: 30px;
+	font-family: cursive;
+	text-align: center;
+	color: #87e387;
+}
+
+.refhead{
+
+	font-size: 23px;
+	font-family: sans-serif;
+	color: #a9f90b;
+	padding-left: 2%;
+}
+
+
+.references{
+	padding-left: 4%;
+	font-size: 17px;
+	font-family: sans-serif;
+	color: #e2ece2;
+}
+
+.referuses{
+	padding-left:2% ;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #e5e6e3;
+
+}
+
+
+
+/*---------------------------------Responsive-------------------------------*/
+
+
+@media screen and (max-width:600px){
+
+
+
+
+
+
+body{
+	display:grid;
+	grid-template-columns:8px 536px;
+
+
+}
+
+/*-----------------------------------------Homepage---------------------------------*/
+
+
+.myimg{
+	width: 520px;
+	height: auto;
+	float: none;
+	
+
+}
+.myinfo{
+	border:2px solid #5eb45e;
+	grid-area: 2/2/3/3;
+
+}
+
+#textcontent{
+	margin-top: 5%;
+}
+
+
+ 
+ /*---------------------------------------------Menu----------------------------------*/
+.hamburgericon{
+	cursor:pointer;
+	width:27px;
+	display:block;
+	margin-top:20px;
+	margin-left:15px;
+	float:left;
+	height:25px;
+}
+
+    
+
+.hamburger{
+
+	display:block;
+	height:3px;
+	margin:5px 0;
+	background-color:#fff;
+	width:25px;
+}
+
+
+.menu{
+
+	background-color:#78bbc3;
+	display:none;
+	font-weight: bold;
+	height:365px;
+	border-radius:15px;
+	border-right:5px solid lightseagreen;
+	border-bottom: 5px solid lightseagreen;
+
+}
+
+
+
+
+.menulist{
+	display:flex;
+	flex-direction:column;
+	margin: 0;
+	color:#2a2d3f;
+	border-radius:25px;
+
+}
+
+ .recent{
+ 	background: #d1d5e6;
+ }
+
+
+.menulist:hover{
+	background: #d1d5e6;
+	transform: scale(1.1);
+}
+
+
+ #respmenu:checked + .menu{
+		display:block;
+		margin-top:12%;
+		position:absolute;
+}
+
+
+
+ /*---------------------------Contact-----------------------------------*/
+.contlayout{
+	display:flex;
+	flex-wrap:wrap;
+	grid-area:2/2/3/3;
+}
+
+
+fieldset{
+	width:176%;
+
+
+}
+
+
+  /*-----------------------------Portfolio--------------------------------*/
+
+
+.pfportion{
+	display:flex;
+	flex-wrap:wrap;
+	grid-area:2/2/3/3;
+
+
+}
+
+
+.cont {
+
+	width:100%;
+}
+
+/*-----------------------------------CV--------------------------------*/
+.cvportion{
+	display: flex;
+	flex-wrap: wrap;
+	grid-area: 2/2/3/3;
+	justify-content: center;
+
+	
+}
+
+
+
+
+#cvhead1{
+display: none;
+}
+
+
+.lcol{
+	border: 0px solid transparent;
+}
+
+.rcol{
+	margin-left:5%;
+	width: 100%;
+}
+
+#imgforcv{
+	
+	margin: 10px 64px;
+	border-radius:0 ;
+	}
+
+.hobby{
+
+	margin-left: -8%;
+}
+
+
+#cvmyname{
+	margin: 0;
+}
+
+
+/*--------------------------------------Site Report----------------------------------*/
+
+.srsec1{
+	grid-area: 2/2/3/3;
+}
+
+.srprg{
+	padding-right: 0;
+}
+
+.fwrd{
+	padding-left: 0;
+}
+
+.assignimg , .validatedss{
+	width: 450px;
+	height: auto;
+}
+
+
+
+
+}
+
+
