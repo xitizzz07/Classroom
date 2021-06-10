@@ -11,12 +11,12 @@ body{
 	grid-row-gap:20px;
 	grid-column-gap:15px;
 	background-image:url(bodyimg.jpg);
-			/* Image Taken From: [Anon.] [n.d] Solid Backgrounds[online].
-			Available from: https://www.solidbackgrounds.com/blue-stained-glass-free-website-background-image.html
-			[Accessed 21 May 2021] */
+			/* Image Taken From: ( [Anon.] , [n.d] ).  */
 		
-
 }
+
+
+
 
 header{
 
@@ -407,8 +407,8 @@ form{
 }
 .hobby{
 	margin: 5% 0;
+	padding-right: 30px;
 }
-
 
 /*--------------------------------------Site Report---------------------------*/
 
@@ -583,7 +583,7 @@ body{
 
 
  #respmenu:checked + .menu{
-		display:block;
+		display:block;							/*  (Edwards , 2017).  */
 		margin-top:12%;
 		position:absolute;
 }
@@ -657,7 +657,7 @@ display: none;
 
 .hobby{
 
-	margin-left: -8%;
+	padding-right: 40px;
 }
 
 
